@@ -1,0 +1,19 @@
+
+
+🔘 ال Restful هي اختصار ل Representational State Transfer ... الState اللي هي Data اللي بتتنقل بين client side و server side
+🔘هي Architecture Style Standard Communication between different system applications
+🔘 بتتعامل ب JSON فبقت الاكثر استخداما دلوقتي 
+🔘 بتتحكم في الداتا نفسها 
+🔘 ال Perfomance بتاعها اعلي وبتكون enable caching 
+🔘 ال Requestes و Responses بيكونوا Stateless يعني لما server ينفذ request او يرد ب response يدمر كل حاجة خاصة بيه 
+🔘 تقدر تعمل Encryption 
+🔘 بيتعامل مع Https protocol فقط
+🔘 علشان كده ال Restful بتستخدم في Modern Web API Applications 
+
+🔴 ال SOAP هي Simple Object Process Protocol 
+🔴 ده بيكون more secure وده بيرجع لل architecture اللي مبني بيه
+ 🔴 بيتعامل مع XML فقط 
+🔴 ال SOAP بيتعامل مع اي Protocol زي TCP اللي بيستخدم في Real time functionality
+🔴 ال Performance بيكون ابطأ وده لكبر حجم messages اللي بتتبعت 
+🔴 تقدر تعمل encryption بس بيكون فيه Overhead
+🔴 ال SOAP بيستخدم في Leagcy Applications و Private APIs
